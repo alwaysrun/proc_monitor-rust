@@ -1,0 +1,70 @@
+###########################
+# Build results(C++/C#/python/rust and NuGet, env)
+# C++/C#
+[Dd]ebug/
+[Rr]elease/
+[Oo]bj/
+bin/
+build/
+
+# rust
+target/
+
+# zig
+.zig-cache/
+zig-out/
+zig-pkg/
+
+# cmake
+cmake-build-*/
+
+## IDE cache/options directory
+.vs/
+.vscode/
+.idea/
+.qoder/
+.codebuddy/
+
+########################
+# cache and useless
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+# User-specific files
+*.suo
+*.user
+*.dbmdl
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+# python
+__pycache__/
+.pytest_cache/
+.eggs/
+.venv/
+*.py[cod]
+
+# Nuget
+packages/
+
+# common useless files
+*.obj
+*.log
+*.user
+*.tmp
+*.[Cc]ache
+~$*
+*~
+
+# security
+.env
+
+########################
+# our ingore 
