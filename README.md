@@ -149,7 +149,3 @@ For detailed architecture documentation, see [docs/Architecture.md](docs/Archite
 Currently supports **Windows only** due to:
 - Windows-specific `taskkill` command for process termination
 - Windows-specific background process creation (`CREATE_NO_WINDOW` flag)
-
-## License
-
-MIT License
